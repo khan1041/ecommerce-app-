@@ -18,7 +18,7 @@ function Cart() {
   return (
     <div className=''>
       <div className='w-full h-full flex gap-4 justify-center mt-30'>
-        <div className='w-80 h-full'>
+        <div className='w-80 h-full sm:ml-0 ml-6'>
           {cart.length > 0 ? (cart.map((i) => {
             return (
               <div className='w-72 h-72 shadow-md mt-3 '>
