@@ -40,7 +40,7 @@ function ShowItems({items,cart,setCart}) {
 
   return (
     <div>
-    <div className='flex justify-center flex-wrap gap-3.5 mt-20 ml-5 '>
+    <div className='flex justify-center flex-wrap gap-3.5 mt-20 ml-2 '>
         {items.length >0?(items.map((item)=>{
             return(
                 <div className='shadow-lg h-60 w-67 bg-white '>
