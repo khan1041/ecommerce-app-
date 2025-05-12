@@ -59,7 +59,7 @@ setsearchTrem("")
       <form onSubmit={handelsubmit}>
          <input value={searchTrem} type="text" 
       onChange={(e)=>setsearchTrem(e.target.value)}
-      placeholder='shearch....'  className='bg-white w-64 rounded'/>
+      placeholder='Search....'  className='bg-white w-64 rounded'/>
       </form>
      
      </div>
