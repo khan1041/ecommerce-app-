@@ -53,7 +53,7 @@ function ShowItems({items,cart,setCart}) {
                   <Link to={usesleacor? `/details/${item.id}`:`/login`} className='w-20 bg-gray-300 font-extrabold flex justify-center rounded'>
                     Details
                     </Link>
-                <button className='bg-orange-500 rounded font-extrabold' onClick={usesleacor?()=>dispatch(addtoCart(item)):navigate}>addCart</button>
+                <button className='bg-blue-400 rounded font-extrabold' onClick={usesleacor?()=>dispatch(addtoCart(item)):navigate}>ADD TO CART</button>
                   </div>
                  </div>
                
